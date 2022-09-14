@@ -27,3 +27,13 @@
 - 서블릿 예외 처리 - 필터
 - 서블릿 예외 처리 - 인터셉터
 - 스프링 부트 - 오류 페이지 설정 및 적용
+- API 예외처리
+  - ErrorPageController를 통한 처리
+  - 스프링 부트 기본 오류 처리 : BasicErrorController
+  - HandlerExceptionResolver 사용하여 API exception처리
+    - 스프링이 제공하는 ExceptionResolver
+      - ResponseStatusExceptionResolver
+      - DefaultHandlerExceptionResolver
+      - ExceptionHandlerExceptionResolver
+  - @ExceptionHandler 적용하여 API exception처리
+  - @ControllerAdvice 적용하여 컨트롤러 내 정상코드와 예외 처리코드 분리  
